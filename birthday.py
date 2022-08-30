@@ -66,4 +66,4 @@ def loop():
 	scheduler.start()
 
 
-client.run()
+client.run(token)
