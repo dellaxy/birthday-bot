@@ -2,11 +2,10 @@ import discord
 from datetime import datetime
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import pytz
-
-client = discord.Client()
-
 import os
 token = os.environ.get('BOT_TOKEN')
+
+client = discord.Client(intents=discord.Intents.default())
 
 narodeniny = None;
 
