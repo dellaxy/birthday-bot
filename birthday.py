@@ -63,7 +63,7 @@ async def task():
 
 def loop():
 	scheduler = AsyncIOScheduler(timezone="Europe/Bratislava")
-	scheduler.add_job(task, 'cron', hour='00', minute='10')
+	scheduler.add_job(task, 'cron', hour='00', minute='15')
 	scheduler.start()
 
 
