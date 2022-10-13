@@ -33,8 +33,8 @@ async def on_ready():
 
 async def task():
 	global narodeniny
-	guild = client.get_guild(834750687770443847)
-	channel = client.get_channel(834750687770443850)
+	guild = client.get_guild(743397937123557426)
+	channel = client.get_channel(743397937555701831)
 	sk_time = datetime.now(pytz.timezone("Europe/Bratislava"))
 	today = sk_time.date()
 	today = str(today).split("-") # 0-yyyy 1-mm 2-dd
